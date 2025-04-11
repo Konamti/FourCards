@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 /* roots */
@@ -26,16 +26,126 @@ html {
   --Cyan--color: hsl(180, 62%, 55%);
   --Orange-color: hsl(34, 97%, 64%);
   --Blue-color: hsl(212, 86%, 64%);
-
   /* Neutral */
-
   --Grey500: hsl(234, 12%, 34%);
   --Grey400: hsl(212, 6%, 44%);
   --White: hsl(0, 0%, 100%);
 }
-/* utilities */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  background-color: var(--White);
+  font-family: Poppins, sans-serif;
+}
+
 /* first section start */
+.heading-container {
+  display: flex;
+  max-width: 90%;
+  width: 30rem;
+}
+
+.heading-content {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h4 {
+  font-weight: 200;
+  font-family: Poppins, sans-serif;
+  font-size: 2.25rem;
+  color: var(--Grey400);
+  margin-bottom: 0.5rem;
+}
+h1 {
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  font-size: 2.25rem;
+  color: var(--Grey500);
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  color: var(--Grey500);
+  margin-bottom: 2rem;
+}
+
 /* first section end */
+
 /* second section start */
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 90%;
+  min-height: 40vh;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  gap: 4rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.different-row {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.one {
+  margin: auto;
+  border-top: 4px solid var(--Cyan--color);
+}
+.two {
+  border-top: 4px solid var(--Red-color);
+}
+.three {
+  border-top: 4px solid var(--Orange-color);
+}
+.four {
+  margin: auto;
+  border-top: 4px solid var(--Blue-color);
+}
+
+.card-heading {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--Grey500);
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: var(--Grey400);
+  margin-bottom: 2.5rem;
+}
+.card picture {
+  position: absolute;
+  bottom: 1rem;
+  right: 0.8rem;
+}
+
 /* second section end */
 /* Media queries */
