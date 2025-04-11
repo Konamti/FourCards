@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Konamti/FourCards.git](https://your-solution-url.com)
-- Live Site URL: [https://konamti.github.io/FourCards/](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Konamti/FourCards.git]
+- Live Site URL: [https://konamti.github.io/FourCards/]
 
 ## My process
 
